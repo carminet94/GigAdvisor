@@ -26,3 +26,6 @@ ricca di tutorial.
 
 - La parte che riguarda la georeferenziazione è stata realizzata mediante Geocoding API.
 
+
+Per qualsiasi info, la mia email: carminetramontano0@gmail.com
+
