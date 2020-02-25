@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_more"
+        android:icon="@drawable/ic_menu_black_24dp"
+        app:showAsAction="always"
+        android:title="">
+
+        <menu>
+
+            <item
+                android:id="@+id/Profile"
+                android:title="Profile"
+                android:visible="false"
+                android:icon="@drawable/ic_user"
+                app:showAsAction="never"/>
+
+            <item
+                android:id="@+id/Login"
+                android:title="Login"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_account_circle_black_24dp"/>
+
+            <item
+                android:id="@+id/Map"
+                android:title="Crowd Worker Italy"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_map_black_24dp"/>
+
+            <!--<item
+                android:id="@+id/choseLanguage"
+                android:title="Choose Language"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_language"/>-->
+
+            <item
+                android:id="@+id/Ratings"
+                android:title="Ratings"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_ratings"/>
+
+            <item android:id="@+id/Home"
+                android:title="Home"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_home_black_24dp"/>
+
+        </menu>
+    </item>
+</menu>
