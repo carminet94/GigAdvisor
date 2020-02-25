@@ -1,0 +1,202 @@
+<resources>
+    <string name="app_name">GigAdvisor</string>
+    <string name="Avanti">Prosegui</string>
+    <string name="Name">Nome</string>
+    <string name="Surname">Cognome</string>
+    <string name="Email">Email</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="password">Password</string>
+    <string name="prompt_password"></string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="login_button">Login</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >4 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="register_here">Register</string>
+    <string name="username">Username</string>
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
+    <string name="title_activity_platform">PlatformActivity</string>
+    <string name="platforms">PLATFORMS</string>
+    <string name="action_settings">Settings</string>
+    <string name="amazon">AMAZON</string>
+    <string name="foodora">FOODORA</string>
+    <string name="justeat">JUST EAT</string>
+    <string name="deliveroo">DELIVEROO</string>
+    <string name="uber">UBER</string>
+    <string name="upwork">UP WORK</string>
+    <string name="crowdsourcing">crowdsourcing</string>
+    <string name="food_delivery">food delivery</string>
+    <string name="transport_service">transport-service</string>
+    <string name="micro_tasking">micro-tasking</string>
+    <string name="Amazon_Mechanical_Turk">Amazon Mechanical Turk</string>
+    <string name="Foodora">Foodora</string>
+    <string name="Just_Eat">Just Eat</string>
+    <string name="Deliveroo">Deliveroo</string>
+    <string name="Uber">Uber</string>
+    <string name="UpWork">Up Work</string>
+    <string name="RegistrationActivity">REGISTRATION</string>
+    <string name="Platforms">Platforms</string>
+    <string name="Rate">Rate your gig</string>
+    <string name="rate_amazon">Rate</string>
+    <string name="title_activity_dacancellare">Dacancellare</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="Presentation">GigAdvisor: a tool to...</string>
+    <string name="about">GigAdvisor in a nutshell...</string>
+    <string name="scritta1">An interdisciplinary research</string>
+    <string name="disciplina">GigAdvisor is an experimental platform designed to work within the scenario of digital labor platforms, a phenomenon marked by a variety of issues - low levels of social protection for gig-workers; pervasive algorithmic control;
+        tomization of work processes, etc. - that increase the need for more insightful empirical investigations and effective regulatory solutions.
+        The platform allows crowdworkers to express, share and discuss different kinds of assessments (by means of predefined scales and free text)
+        on the quality of their experiences with the platforms they work for.
+        Resulting from a research project that brings together labor studies and data-driven computational social science (CSS), the
+        initiative is an attempt to explore new approaches to the analysis and regulation of digital economy.</string>
+
+    <string name="scritta2">The goals</string>
+    <string name="goal">The first goal is to gather data to be used in CSS research on gig economy.\n
+        Data collected through users’ interaction with the tool - enriched with geographical and temporal metatags - will not
+        only be made available to the workers thanks to real-time visualizations, but also exploited for research purposes.
+        Social network analysis, sentiment analysis and other CSS methods can be precious to answer questions of both normative and empirical nature:
+            <item>assess the impact of legislative policies</item>
+            <item>support ​(temporally and spatially) ​fine-grained investigation about working conditions</item>
+            <item>identify patterns in the behavior of market operators (e.g. unfair practices)</item>
+        <i>Regulatory design</i>
+        Drawing from the “techno-regulation” paradigm - the idea of influencing individuals by building norms
+        or nudge strategies into technological devices (Leenes 2013) - a second goal is to start fiddling with the design of solutions
+        allowing to exploit the regulatory effects that can be induced by tools allowing to build up a reputational image of labor platforms.
+        Special attention will be paid, in this vein, to figure out new ways to leverage the power of analytics and visualization to increase
+        the conditioning power of a “data-enhanced” reputation.</string>
+
+    <string name="safetyatwork">La sicurezza sul lavoro in Italia è normata dal DLgs. 81/08 o Testo Unico sulla Sicurezza sul Lavoro.
+        La legge stabilisce regole, procedure e misure preventive da adottare per rendere più sicuri i luoghi di lavoro, quali essi siano.
+        L’obiettivo è quello di evitare o comunque ridurre al minimo l’esposizione dei lavoratori a rischi legati all’attività lavorativa per evitare infortuni o incidenti o, peggio,
+        contrarre una malattia professionale.La sicurezza sul lavoro è a carico del datore di lavoro, dipendenti o collaboratori che
+        devono comunque adottare un comportamento consono alla struttura in cui si trovano o alla mansione loro affidata.</string>
+
+    <string name="scritta3">Platform\'s modules</string>
+    <string name="module">The tool, still under development, currently encompasses three components:
+
+        <b>"Rate your gig"</b>
+        The module allows crowdworkers to evaluate digital labor platforms they work for, according to a series of predefined criteria
+        (e.g. employer fairness, payment timeliness) mapping most relevant
+
+        <b>"See platform's rating"</b>
+        The module offers the real-time analysis and visualization of data resulting from the assessments made by crowd workers using the
+        “RATE YOUR GIG!”
+
+        <b>"Connect with others"</b>
+        A forum allowing crowd workers to discuss issues and share ideas about their working experience.</string>
+
+    <string name="scritta4">Next steps</string>
+    <string name="nextstep">We are planning to use GigAdvisor within experimental settings involving real workers and designed
+        in collaboration with unions and gig-workers associations. If you are interested, feel free to contact us.</string>
+
+    <string name="pubb1">
+        Lettieri, Nicola, et al. Platform Economy and Techno-Regulation—Experimenting with Reputation and Nudge. Future Internet, 2019, 11.7: 163.
+    </string>
+
+    <string name="pubb2">
+        De Minicis, M., Donà, S., Lettieri, N., &amp; Marocco, M. (2019).
+        Disciplina e tutela del lavoro nelle digital labour platform. Un modello di tecno-regolazione.
+    </string>
+
+    <string name="pubb3">
+        Lettieri N., Digital Labour platforms, algorithmic governance and techno-regulation: towards the
+        computational evolution of law and labor studies.
+        Talk presented at the "Reshaping Work 2019" International Conference - Amsterdam - 24 October 2019
+    </string>
+
+    <string name="initialMessage">This is a prototype of an experimental mobile-application under development for pure research purposes.
+    Data presented in following pages are fictitious.</string>
+    <string name="link">https://gigadvisor.herokuapp.com/GigAdvisor/login/</string>
+
+    <string name="nicola">
+        Researcher at INAPP, Rome. Adjunct professor of Legal informatics at the University of Sannio
+    </string>
+
+    <string name="malandrino">
+        Associate professor at the Department of Computer Science of the University of
+        Salerno, member of ISISLab
+    </string>
+
+    <string name="rocco">
+        Research fellow and adjunct professor at Department of Computer Science of the University of Salerno
+    </string>
+
+    <string name="alfonso">
+        Research fellow at the Department of Computer Science of the University of Salerno and member of ISISLab
+    </string>
+
+    <string name="carmine">
+        Bachelor\'s Degree in Computer Science \n at the University of Salerno
+    </string>
+
+    <string-array name="region_item">
+        <item>Abruzzo</item>
+        <item>Basilicata</item>
+        <item>Calabria</item>
+        <item>Campania</item>
+        <item>Emilia Romagna</item>
+        <item>Friuli Venezia Giulia</item>
+        <item>Lazio</item>
+        <item>Liguria</item>
+        <item>Lombardia</item>
+        <item>Marche</item>
+        <item>Molise</item>
+        <item>Piemonte</item>
+        <item>Puglia</item>
+        <item>Sardegna</item>
+        <item>Sicilia</item>
+        <item>Toscana</item>
+        <item>Umbria</item>
+        <item>Valle Aosta</item>
+        <item>Veneto</item>
+    </string-array>
+
+    <string-array name="item_sex">
+        <item>Maschio</item>
+        <item>Femmina</item>
+    </string-array>
+
+
+    <string name="alertMessage">I dati inseriti in questo form di recensione verranno utilizzati per
+    scopi puramente di ricerca. Tutto ciò che viene espresso è visualizzato in forma assolutamente anonima.
+    I dati non verranno mostrati in nessun modo.</string>
+
+    <string name="platformMessage">This module allows crowd workers to evaluate digital labour platforms they work for, according to a series of predefined criteria</string>
+
+    <string name="graphmessage">This module shows real-time analysis\nand visualization
+    of data resulting from the assessments made by crowd workers.</string>
+
+    <string name="teamdescription">The project stems from an ongoing interdisciplinary collaboration involving
+        researchers with a background in legal informatics, computer science, labor law, economic sociology.
+    </string>
+
+    <string name="manuel">Researcher at INAPP. Head of the research group <i>\"Technological innovation, industrial relations and labor market\"</i> </string>
+
+    <string name="massimo">Researcher at INAPP. Member of the research group <i>\"Technological innovation, industrial relations and labor market\"</i></string>
+
+    <string name="silvia">Researcher fellow at INAPP. Member of the research group <i>\"Technological innovation, industrial relations and labor market\"</i></string>
+
+    <string name="publication1">Lettieri, Nicola, et al. Platform Economy and Techno-Regulation—Experimenting with Reputation and Nudge. Future Internet, 2019, 11.7: 163.</string>
+
+    <string name="publication2">De Minicis, M., Donà, S., Lettieri, N., &amp; Marocco, M. (2019). Disciplina e tutela del lavoro nelle digital labour platform. Un modello di tecno-regolazione.</string>
+
+    <string name="publication3">Lettieri N., Digital Labour platforms, algorithmic governance and techno-regulation: towards the computational evolution of law and labor studies. Talk presented at the "Reshaping Work 2019" International Conference - Amsterdam - 24 October 2019</string>
+
+    <string name="gigadvisorinanutshell">
+GigAdvisor is an experimental app for data driven exploration of platform economy. Designed for gigworkers, researchers and citizens, the tool implements the following pipeline:</string>
+
+    <string name="messagelogin">To assess the platform you have been working form please register/login.</string>
+    <string name="dialoglogin">LOGIN NEEDED</string>
+
+    <string name="messagedownload">To download raw data stored on GigAdvisor, please login.</string>
+</resources>

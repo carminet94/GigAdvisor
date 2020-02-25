@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorTitle">#00aac9</color>
+    <color name="Amazon">#FF0000</color>
+    <color name="Uber">#00CD00</color>
+    <color name="Foodora">#0000FF</color>
+    <color name="JustEat">#000000</color>
+    <color name="UpWork">#FFFF00</color>
+    <color name="Delivero">#FF00FF</color>
+    
+    <color name="SafetyAtWork">#28a745</color>
+    <color name="Contractstransparency">#dc3545</color>
+    <color name="Paymenttimeliness">#ffc107</color>
+    <color name="Platformsfairness">#17a2b8</color>
+
+    <color name="platfromrating">#95cb03</color>
+    <color name="rateyourgig">#ff7404</color>
+
+    <color name="colorIconSelected">#FF2301</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="grey">#EEEEEE</color>
+    <color name="colorIcon">#B1B1B1</color>
+    <color name="colorApp">#595959</color>
+
+</resources>

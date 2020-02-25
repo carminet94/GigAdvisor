@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="map_key" translatable="false">
+
+        <!--Va inserito la chiave generata dall'API Google per i marker su GMaps-->
+
+    </string>
+
+</resources>
