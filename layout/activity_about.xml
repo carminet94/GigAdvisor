@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+
+    <TextView
+        android:fontFamily="@font/josefin_sans_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorTitle"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/josefin_sans_light"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/gigadvisorinanutshell"/>
+
+    <ImageView
+        android:layout_marginTop="110dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/nutshel"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <!--<LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:fontFamily="@font/josefin_sans_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:fontFamily="@font/josefin_sans_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="@string/scritta1"
+            android:textColor="@color/colorTitle"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/josefin_sans_light"
+            android:gravity="center"
+            android:text="@string/disciplina"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:fontFamily="@font/josefin_sans_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="@string/scritta2"
+            android:textColor="@color/Paymenttimeliness"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:fontFamily="@font/josefin_sans_light"
+                android:textColor="@color/black"
+                android:layout_marginTop="2dp"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/goal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="@string/scritta4"
+            android:fontFamily="@font/josefin_sans_light"
+            android:textColor="#c027bf"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:fontFamily="@font/josefin_sans_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="80dp"
+            android:gravity="center"
+            android:text="@string/nextstep"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>-->
+
+
+
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/menu_navigation"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/grey"
+        app:itemIconSize="40sp"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"/>
+
+</RelativeLayout>

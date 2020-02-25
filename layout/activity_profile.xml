@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:fontFamily="@font/josefin_sans_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorTitle"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:text="PROFILE"/>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:fontFamily="@font/josefin_sans_light"
+                    android:id="@+id/viewNomeProfilo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Nome"
+                    android:layout_marginLeft="20sp"
+                    android:textSize="25sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/viewCognomeProfilo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20sp"
+                    android:fontFamily="@font/josefin_sans_light"
+                    android:hint="Cognome"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:textSize="12sp"
+                    android:fontFamily="@font/josefin_sans_light"
+                    android:layout_marginRight="25dp"
+                    android:id="@+id/showForm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Create Profile"
+                    android:background="@color/colorTitle"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="30dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:fontFamily="@font/josefin_sans_light"
+                    android:visibility="invisible"
+                    android:id="@+id/txtDataNascita"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Data di nascita: "
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorTitle"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"/>
+
+
+                <EditText
+                    android:visibility="invisible"
+                    android:id="@+id/dataNascita"
+                    android:hint="d - m - Y"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="date"/>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:fontFamily="@font/josefin_sans_light"
+                    android:visibility="invisible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sesso"
+                    android:id="@+id/choiceSex"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:background="@color/colorTitle"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"/>
+
+                <TextView
+                    android:visibility="invisible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sexSel"
+                    android:hint="Sesso"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="15dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorTitle"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:fontFamily="@font/josefin_sans_light"
+                    android:visibility="invisible"
+                    android:id="@+id/txtResidenza"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Residenza: "
+                    android:gravity="center"
+                    android:layout_marginRight="15dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorTitle"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"/>
+
+                <EditText
+                    android:visibility="invisible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:id="@+id/residence"
+                    android:hint="Inserisci la tua residenza"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:fontFamily="@font/josefin_sans_light"
+                    android:visibility="invisible"
+                    android:id="@+id/txtTitoloStudio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Titolo di studio: "
+                    android:gravity="center"
+                    android:layout_marginRight="15dp"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorTitle"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"/>
+
+                <EditText
+                    android:visibility="invisible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:id="@+id/studyTitle"
+                    android:hint="Inserisci il tuo titolo di studio"/>
+
+            </LinearLayout>
+
+            <Button
+                android:fontFamily="@font/josefin_sans_light"
+                android:visibility="invisible"
+                android:id="@+id/createProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@color/colorTitle"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="Send"/>
+
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/josefin_sans_light"
+                    android:gravity="center"
+                    android:id="@+id/goToPlatoform"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Go To Platform"
+                    android:textColor="#123654"
+                    android:textSize="28sp"/>
+
+            <Button
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/josefin_sans_light"
+                android:id="@+id/buttonLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="50dp"
+                android:backgroundTint="#FF0000"
+                android:text="LOGOUT" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

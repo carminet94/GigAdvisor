@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".KnowYourRightsActivity">
+
+    <include layout="@layout/toolbar"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="58dp"
+        android:src="@drawable/scritta1" />
+
+    <TextView
+        android:id="@+id/continuemore"
+        android:layout_width="150dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="615dp"
+        android:layout_height="60dp"/>
+
+
+    <!--<TextView
+        android:id="@+id/download"
+        android:textSize="35sp"
+        android:text="Download"
+        android:fontFamily="@font/josefin_sans_light"
+        android:textStyle="bold"
+        android:textColor="@color/colorTitle"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>-->
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/menu_navigation"
+        android:layout_alignParentBottom="true"
+        app:itemIconSize="40sp"
+        app:itemBackground="@color/grey"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"/>
+
+</RelativeLayout>

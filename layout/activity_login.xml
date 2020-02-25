@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".LoginActivity">
+
+    <include layout="@layout/toolbar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/josefin_sans_light"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="@color/colorTitle"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <!--<ImageView
+        android:layout_marginTop="100dp"
+        android:id="@+id/logo"
+        android:src="@drawable/logogigadvisor"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="30dp"/>-->
+
+    <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:id="@+id/layoutUsername">
+
+            <EditText
+                android:textStyle="bold"
+                android:fontFamily="@font/josefin_sans_light"
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Username"
+                android:id="@+id/textUsernameLogin"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutPassword"
+        android:layout_below="@id/layoutUsername"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:fontFamily="@font/josefin_sans_light"
+            android:textStyle="bold"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:id="@+id/textPasswordLogin"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ProgressBar
+        android:id="@+id/caricamentoLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutPassword"
+        android:visibility="gone"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/josefin_sans_light"
+        android:layout_below="@id/layoutPassword"
+        android:id="@+id/buttonLogin"
+        android:layout_marginTop="30dp"
+        android:text="Sign In"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:background="@color/colorTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:fontFamily="@font/josefin_sans_light"
+        android:id="@+id/registrationLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="20sp"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/colorTitle"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="New crowd worker? Start Here" />
+
+</RelativeLayout>

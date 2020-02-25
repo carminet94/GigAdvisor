@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewRatingActivityUber">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dataViewrating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="Date"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/josefin_sans_light"
+            android:id="@+id/titleViewRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:textColor="#007bff"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:fontFamily="@font/josefin_sans_light"
+            android:id="@+id/descriptionViewRating"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:hint="Description"
+            android:textColor="@android:color/black"
+            android:textSize="23sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

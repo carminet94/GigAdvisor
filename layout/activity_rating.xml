@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RatingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="84dp">
+
+
+        <EditText
+            android:textStyle="bold"
+            android:fontFamily="@font/josefin_sans_light"
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:hint="Title"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/textDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:layout_marginTop="10dp"
+            android:inputType="textMultiLine"
+            android:lines="5"></EditText>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:fontFamily="@font/josefin_sans_light"
+                android:id="@+id/selectRegion"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorTitle"
+                android:gravity="center"
+                android:text="Select region"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <TextView
+                android:fontFamily="@font/josefin_sans_light"
+                android:id="@+id/regioneSelezionata"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:textColor="#C11B17"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="Regione Selezionata"
+                android:textSize="20sp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:fontFamily="@font/josefin_sans_light"
+                android:id="@+id/txtSafety"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Safety at Work"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:id="@+id/ratingSafety"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:isIndicator="false"
+                android:numStars="5"
+                android:theme="@style/RatingBar"
+                android:progress="1"
+                android:rating="1"
+                android:stepSize="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:fontFamily="@font/josefin_sans_light"
+                android:id="@+id/txtContract"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Contracts Trasparency"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:theme="@style/RatingBar"
+                android:id="@+id/ratingContrTras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:isIndicator="false"
+                android:numStars="5"
+                android:progress="1"
+                android:rating="1"
+                android:stepSize="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:fontFamily="@font/josefin_sans_light"
+                android:id="@+id/txtPayness"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Payment timeliness"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <RatingBar
+                android:theme="@style/RatingBar"
+                android:id="@+id/ratingPayTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:isIndicator="false"
+                android:numStars="5"
+                android:progress="1"
+                android:rating="1"
+                android:stepSize="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:fontFamily="@font/josefin_sans_light"
+                android:id="@+id/txtFairness"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Platform's fairness"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:theme="@style/RatingBar"
+                android:id="@+id/ratingPlatFair"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:isIndicator="false"
+                android:numStars="5"
+                android:progress="1"
+                android:rating="1"
+                android:stepSize="1" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/josefin_sans_light"
+                android:text="Do you want share your position?"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:fontFamily="@font/josefin_sans_light"
+                android:textStyle="bold"
+                android:id="@+id/buttonLatLong"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="#348017"
+                android:text="YES"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:fontFamily="@font/josefin_sans_light"
+                android:textStyle="bold"
+                android:id="@+id/buttonLatLongNO"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="#FF0000"
+                android:text="NO"
+                android:textColor="#FFFFFF" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/coordinateLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:fontFamily="@font/josefin_sans_light"
+                android:id="@+id/textLatitudine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Latitudine"
+                android:textSize="18sp" />
+
+            <TextView
+                android:fontFamily="@font/josefin_sans_light"
+                android:id="@+id/textLongitudine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Longitudine"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+        <Button
+            android:fontFamily="@font/josefin_sans_light"
+            android:textStyle="bold"
+            android:id="@+id/rateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@color/colorTitle"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="50dp"
+            android:text="Save Review" />
+
+
+    </LinearLayout>
+</ScrollView>
