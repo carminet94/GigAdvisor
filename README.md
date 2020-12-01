@@ -1,31 +1,24 @@
 # GigAdvisor
 
-*Informazioni GigAdvisor mobile application*
+*Informations of GigAdvisor mobile application*
 
-Partendo dal presupposto che tale progetto è di una certa complessità, ma tutto è di facile comprensione se letto in un certo modo.
+- The tools used in this project are: XML to manage the GUI, every element visible in the app has been created using it. Some small parts of the project  were made by using external libraries but they were already been implemented in the “Gradle Scripts -> build.gradle(module:app)” module.
 
-- Gli strumenti utilizzati sono il linguaggio XML per la gestione dell'interfaccia grafica, qualsiasi elemento dell'app è stato creato
-utilizzando tale linguaggio. Ovviamente per realizzare alcune piccolezze sono state utilizzate delle librerie, ma non preoccuparti, sono 
-già state implementate nel modulo "Gradle Scripts -> build.gradle(module:app)". 
+- Data persistence has been managed using MySQL database.
 
-- Per la persistenza dei dati ho utilizzato un database MySQL presente in rete.
+- Java language was used to define all the behaviors of the app and the various requests/responses of the case.
 
-- Il linguaggio Java è utilizzato per dar vita all'app e quindi definire tutti i comportamenti e le varie richieste/risposte del caso.
+- All the PHP scripts that comunicate with the DB are stored on the web server
 
-- Sul web server sono presenti gli script scritti in linguaggio PHP che comunicano col DB.
+- Using the library Volley, I created a safe and easily manageable communication channel. This library is already installed.
 
-- Utilizzando la libreria Volley (implementata come detto in precedenza) ho creato un canale di comunicazione sicuro e facilmente gestibile,
-tale libreria è già implementata. 
+- To build plots, I used the library MPAndroiCharts taken from GitHub, it is already installed in the app and you can easily search online for tutorials and much more.
 
-- Per la creazione dei grafici ho utilizzato la libreria MPAndroidCharts, da GitHub, essa perfettamente funzionante è già presente nell'app e 
-ricca di tutorial. 
+- The use of phpBB was crucial to create and manage the forum.
 
-- L'utilizzo di phpBB è stato fondamentale per la creazione e gestione del forum.
+- AndroidStudio is the IDE used to develop the project.
 
-- L'IDE per lo sviluppo è Android Studio.
+- Georeferencing was made by Geocoding API.
 
-- La parte che riguarda la georeferenziazione è stata realizzata mediante Geocoding API.
-
-
-Per qualsiasi info, la mia email: carminetramontano0@gmail.com
+If you need more informations about it, feel free to contact me: carminetramontano0@gmail.com
 
